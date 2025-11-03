@@ -28,3 +28,23 @@ a{ color: #bfefff } a:hover{ color: white }
 img.product-img{ width:100%; height:180px; object-fit:cover; border-radius:8px }
 
 @media (max-width:576px){ .hero-card h1{ font-size:1.6rem } }
+nav {
+  display: flex;               /* Arrange items in a row */
+  justify-content: center;     /* Center horizontally */
+  align-items: center;         /* Align vertically */
+  gap: 20px;                   /* Space between links */
+  flex-wrap: wrap;             /* Optional: wrap on smaller screens */
+}
+
+nav a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00b7ff;
+}
+
