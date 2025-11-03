@@ -1,1 +1,1 @@
-console.log('Website Loaded');
+console.log('Website loaded successfully');
