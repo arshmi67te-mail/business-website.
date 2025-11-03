@@ -1,0 +1,19 @@
+nav {
+  display: flex;               /* Arrange items in a row */
+  justify-content: center;     /* Center horizontally */
+  align-items: center;         /* Align vertically */
+  gap: 20px;                   /* Space between links */
+  flex-wrap: wrap;             /* Optional: wrap on smaller screens */
+}
+
+nav a {
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00b7ff;
+}
