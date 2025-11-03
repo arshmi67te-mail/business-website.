@@ -1,6 +1,0 @@
-[
-  {"id":1,"title":"Starter Gaming PC","price":45999,"img":"images/product1.jpg","desc":"Great entry-level gaming PC with GTX-class GPU."},
-  {"id":2,"title":"Mid-range Gaming PC","price":75999,"img":"images/product2.jpg","desc":"Balanced build for 1080p/1440p gaming."},
-  {"id":3,"title":"High-end Workstation","price":159999,"img":"images/product3.jpg","desc":"Powerful workstation for content creators and devs."},
-  {"id":4,"title":"Compact Mini PC","price":34999,"img":"images/product4.jpg","desc":"Small footprint PC for everyday tasks and HTPC use."}
-]
