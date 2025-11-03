@@ -1,0 +1,30 @@
+:root{
+  --bg:#060710;
+  --card:#0f1724;
+  --muted:#9aa7b2;
+  --neon-1:#00e5ff; /* neon cyan */
+  --neon-2:#0ea5f9; /* bright blue */
+}
+
+/* Base layout */
+body.bg-dark{ background: radial-gradient(1200px 600px at 10% 10%, rgba(14,165,249,0.06), transparent), linear-gradient(180deg,#040612,#071227); color:#e6eef6; min-height:100vh; font-family: 'Poppins', sans-serif; }
+
+.navbar.bg-neon-grad{ background: linear-gradient(90deg, rgba(14,165,249,0.95), rgba(0,229,255,0.95)); box-shadow: 0 8px 24px rgba(2,6,23,0.6); }
+
+.hero-card{ background: linear-gradient(180deg, rgba(14,165,249,0.06), rgba(0,229,255,0.03)); border:1px solid rgba(255,255,255,0.03); }
+
+.feature-card{ background: linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border: 1px solid rgba(255,255,255,0.03); }
+
+.bg-footer{ background: rgba(255,255,255,0.02); }
+
+.card, .service-card, .gallery-card{ background: rgba(255,255,255,0.02); border-radius:12px; border:1px solid rgba(255,255,255,0.03); }
+
+.btn-primary{ background: linear-gradient(90deg,var(--neon-2),var(--neon-1)); border: none; }
+
+a{ color: #bfefff } a:hover{ color: white }
+
+.product-card{ background: linear-gradient(180deg, rgba(255,255,255,0.01), rgba(255,255,255,0.02)); padding:12px; border-radius:10px; border:1px solid rgba(255,255,255,0.03); }
+
+img.product-img{ width:100%; height:180px; object-fit:cover; border-radius:8px }
+
+@media (max-width:576px){ .hero-card h1{ font-size:1.6rem } }
